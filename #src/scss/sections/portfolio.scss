@@ -1,0 +1,35 @@
+.portfolio {
+    &__flex {
+        display: flex;
+    }
+    &__flex1 {
+        width: 1980 / 2560 * 100%;
+    }
+    &__flex2 {
+        width: 580 / 2560 * 100%;
+        min-width: 520px;
+        border: 10px solid #050505;
+        img {
+            height: 1139.5px;
+        }
+    }
+    &__flex3 {
+        width: 1360 / 1980 * 100%;
+        border: 10px solid #050505;
+        img {
+            height: 570px;
+        }
+    }
+    &__flex4 {
+        width: 620 / 1980 * 100%;
+        min-width: 520px;
+        border: 10px solid #050505;
+        img {
+            height: 570px;
+        }
+    }
+    &__image {
+        width: 100%;
+        object-fit: cover;
+    }
+}
