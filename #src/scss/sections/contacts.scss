@@ -1,0 +1,53 @@
+.contacts {
+    background-image: url('../img/bg-1.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &__content {
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        &-flex {
+            display: flex;
+        }
+        &-title {
+            padding-right: 28px;
+            border-right: 1px solid #3b3b3b;
+            display: flex;
+            align-items: center;
+            p {
+                font-size: 45px;
+                color: #bef905;
+                font-family: 'PFDinTextCondPro', sans-serif;
+            }
+        }
+        &-copyright {
+            color: #444444;
+            font-family: 'PFDinTextCondPro', sans-serif;
+            font-size: 12px;
+            line-height: 100%;
+            position: absolute;
+            bottom: 97px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+        }
+    }
+    &__list {
+        padding: 28px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        &-link {
+            font-family: 'PFDinTextCondPro', sans-serif;
+            color: #b9b9b9;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
