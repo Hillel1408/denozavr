@@ -1,0 +1,30 @@
+.about-us {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/bg-1.png');
+    background-size: cover;
+    &__content {
+        margin: 0 auto;
+        width: fit-content;
+        &-img {
+            width: 226px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-bottom: 62px;
+            img {
+                width: 100%;
+                object-fit: cover;
+                height: 226px;
+            }
+        }
+        &-text {
+            font-family: 'PFDinTextCondPro', sans-serif;
+            max-width: 551px;
+            font-size: 17px;
+            line-height: 120%;
+            color: #b9b9b9;
+            text-align: center;
+        }
+    }
+}
