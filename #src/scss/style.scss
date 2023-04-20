@@ -1,13 +1,6 @@
 @import 'fonts';
 
 $minWidth: 320;
-$maxWidth: 1440;
-$maxWidthContainer: 1240;
-$md1: $maxWidthContainer + 30;
-$md2: 991.98;
-$md3: 767.98;
-$md4: 575.98;
-$md5: 319.98;
 
 $fontFamily: 'Lato', sans-serif;
 
@@ -25,14 +18,6 @@ body.lock {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-}
-.container {
-    max-width: $maxWidthContainer + px;
-    margin: 0 auto;
-    @media (max-width: ($md1 + px)) {
-        max-width: none;
-        padding: 0 15px;
-    }
 }
 
 @import './sections/header';
