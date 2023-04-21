@@ -11,6 +11,9 @@
         text-align: center;
         &-flex {
             display: flex;
+            @media (max-width: (480px)) {
+                flex-direction: column;
+            }
         }
         &-title {
             padding-right: 28px;
@@ -21,6 +24,13 @@
                 font-size: 45px;
                 color: #bef905;
                 font-family: 'PFDinTextCondPro', sans-serif;
+            }
+            @media (max-width: (480px)) {
+                padding-right: 0;
+                padding-bottom: 28px;
+                border-right: none;
+                border-bottom: 1px solid #3b3b3b;
+                justify-content: center;
             }
         }
         &-copyright {
