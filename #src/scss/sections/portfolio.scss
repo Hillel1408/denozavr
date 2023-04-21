@@ -30,6 +30,7 @@
             line-height: 100%;
             color: white;
             margin-bottom: 16px;
+            transition: 0.4s;
         }
     }
     &__main-flex {
@@ -80,6 +81,9 @@
         &:hover {
             .portfolio__flex-text {
                 background: rgba(0, 0, 0, 0.55);
+            }
+            .portfolio__flex-title {
+                margin-bottom: 40px;
             }
         }
     }
