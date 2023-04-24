@@ -719,9 +719,24 @@ body.lock {
     margin-bottom: -30px;
   }
 }
-@media (max-width: 2560px) {
+@media (max-width: 1920px) {
   .portfolio__flex-title {
-    font-size: calc(1.7vw + 20px);
+    font-size: 55px;
+  }
+}
+@media (max-width: 1400px) {
+  .portfolio__flex-title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 1024px) {
+  .portfolio__flex-title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio__flex-title {
+    font-size: 25px;
   }
 }
 .portfolio__main-flex {
