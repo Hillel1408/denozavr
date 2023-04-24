@@ -23,7 +23,9 @@
             p {
                 font-size: 45px;
                 color: #bef905;
-                font-family: 'PFDinTextCondPro', sans-serif;
+                font-family: 'PF Din Text Comp Pro', sans-serif;
+                font-weight: 600;
+                letter-spacing: 1px;
             }
             @media (max-width: (480px)) {
                 padding-right: 0;
@@ -39,7 +41,7 @@
             font-size: 12px;
             line-height: 100%;
             position: absolute;
-            bottom: 97px;
+            bottom: 105px;
             margin: 0 auto;
             left: 0;
             right: 0;
@@ -52,8 +54,10 @@
         flex-direction: column;
         gap: 10px;
         &-link {
-            font-family: 'PFDinTextCondPro', sans-serif;
+            font-family: 'PF Din Text Comp Pro', sans-serif;
             color: #b9b9b9;
+            font-weight: 600;
+            letter-spacing: 1px;
             font-size: 24px;
             display: flex;
             align-items: center;

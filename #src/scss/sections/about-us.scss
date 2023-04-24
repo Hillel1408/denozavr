@@ -35,6 +35,9 @@
             line-height: 120%;
             color: #b9b9b9;
             text-align: center;
+            span {
+                color: rgb(190, 249, 5);
+            }
         }
         &-image {
             display: block;

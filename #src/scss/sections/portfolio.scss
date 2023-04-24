@@ -1,8 +1,12 @@
 .portfolio {
-    margin-top: -10px;
+    &__block {
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
     &__flex {
         display: flex;
-        @media (max-width: (1068px)) {
+        @media (max-width: (520px)) {
             flex-direction: column;
         }
         &-text {
@@ -18,58 +22,103 @@
             justify-content: center;
             transition: 0.4s;
             font-family: 'RistrettoSlabPro', sans-serif;
+            background: rgba(0, 0, 0, 0.45);
             span {
+                transition: 0.4s;
                 font-size: 21px;
                 line-height: 100%;
                 color: white;
                 font-family: 'PFDinTextCompPro', sans-serif;
+                @media (min-width: (768px)) {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                @media (max-width: (1920px)) {
+                    font-size: 18px;
+                }
+                @media (max-width: (1400px)) {
+                    font-size: 16px;
+                }
+                @media (max-width: (1024px)) {
+                    font-size: 14px;
+                }
+                @media (max-width: (768px)) {
+                    font-size: 12px;
+                }
             }
         }
         &-title {
             font-size: 65px;
             line-height: 100%;
             color: white;
-            margin-bottom: 16px;
+            margin-bottom: 17px;
             transition: 0.4s;
+            @media (min-width: (768px)) {
+                margin-bottom: -30px;
+            }
+            @media (max-width: (1920px)) {
+                font-size: 50px;
+            }
+            @media (max-width: (1400px)) {
+                font-size: 40px;
+            }
+            @media (max-width: (1024px)) {
+                font-size: 35px;
+            }
+            @media (max-width: (768px)) {
+                font-size: 25px;
+            }
         }
     }
     &__main-flex {
         display: flex;
-        @media (max-width: (1600px)) {
-            flex-direction: column-reverse;
+        @media (max-width: (520px)) {
+            flex-direction: column;
         }
     }
     &__flex1 {
         width: 1980 / 2560 * 100%;
-        @media (max-width: (1600px)) {
+        @media (max-width: (1025px)) {
+            width: 66.6666%;
+        }
+        @media (max-width: (520px)) {
             width: 100%;
         }
     }
     &__flex2 {
         width: 580 / 2560 * 100%;
-        min-width: 533.5px;
         border: 10px solid #050505;
         img {
             width: 100%;
-            height: 1160px;
+
+            height: 100%;
             @media (max-width: (1600px)) {
-                height: 570px;
+                height: 100%;
             }
         }
-        @media (max-width: (1600px)) {
-            width: 100%;
-        }
+
         @media (max-width: (670px)) {
             min-width: auto;
+        }
+        @media (max-width: (1025px)) {
+            width: 33.3333%;
+        }
+        @media (max-width: (520px)) {
+            width: 100%;
         }
     }
     &__flex3 {
         width: 1360 / 1980 * 100%;
         border: 10px solid #050505;
         img {
-            height: 570px;
+            height: 100%;
         }
         @media (max-width: (1068px)) {
+        }
+        @media (max-width: (1025px)) {
+            width: 50%;
+        }
+        @media (max-width: (520px)) {
             width: 100%;
         }
     }
@@ -80,25 +129,31 @@
         cursor: pointer;
         &:hover {
             .portfolio__flex-text {
-                background: rgba(0, 0, 0, 0.55);
+                background: rgba(0, 0, 0, 0.65);
             }
             .portfolio__flex-title {
-                margin-bottom: 40px;
+                margin-bottom: 17px;
+            }
+            .portfolio__flex-text span {
+                opacity: 1;
+                visibility: visible;
             }
         }
     }
     &__flex4 {
         width: 620 / 1980 * 100%;
-        min-width: 533.5px;
         border: 10px solid #050505;
         img {
-            height: 570px;
-        }
-        @media (max-width: (1068px)) {
-            width: 100%;
+            height: 100%;
         }
         @media (max-width: (670px)) {
             min-width: auto;
+        }
+        @media (max-width: (1025px)) {
+            width: 50%;
+        }
+        @media (max-width: (520px)) {
+            width: 100%;
         }
     }
     &__image {
