@@ -1,6 +1,9 @@
 @import 'fonts';
+@import 'mixins';
 
 $minWidth: 320;
+$maxWidthContainer: 2560;
+$maxWidth: 2560;
 
 $fontFamily: 'Lato', sans-serif;
 
