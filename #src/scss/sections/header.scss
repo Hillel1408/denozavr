@@ -95,7 +95,7 @@
                 transform: rotate(45deg);
             }
             .main-nav__burger-rect:nth-child(3) {
-                transform: rotate(-45deg) translateX(8px) translateY(-7px);
+                transform: rotate(-45deg) translateX(8px) translateY(-8px);
             }
         }
         @media (max-width: (1025px)) {
@@ -148,7 +148,7 @@
             letter-spacing: 1.5px;
             color: #c9c9c9;
             font-weight: 100;
-            font-family: 'PF Din Text Cond Pro', sans-serif;
+            font-family: 'PF Din Text Comp Pro', sans-serif;
             &.active {
                 border-width: 1px;
                 border-color: rgb(190, 249, 5);
@@ -162,7 +162,7 @@
             @media (max-width: (1025px)) {
                 font-size: 34px;
                 color: #fff;
-                font-family: 'PFDinTextCompPro', sans-serif;
+                font-family: 'PF Din Text Comp Pro', sans-serif;
                 text-transform: uppercase;
             }
         }
@@ -207,6 +207,9 @@
                 font-size: 34px;
                 color: #fff;
                 opacity: 1;
+                line-height: 24px;
+                letter-spacing: 1.5px;
+                font-weight: 100;
             }
         }
         @media (max-width: (1025px)) {
