@@ -579,7 +579,7 @@ body.lock {
   font-size: 45px;
   color: #bef905;
   font-family: "PF Din Text Comp Pro", sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 @media (max-width: 480px) {
@@ -619,7 +619,7 @@ body.lock {
 .contacts__list-link {
   font-family: "PF Din Text Comp Pro", sans-serif;
   color: #b9b9b9;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 1px;
   font-size: 24px;
   display: -webkit-box;
