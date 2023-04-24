@@ -690,14 +690,19 @@ body.lock {
     font-size: 18px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1400px) {
   .portfolio__flex-text span {
     font-size: 16px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .portfolio__flex-text span {
     font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio__flex-text span {
+    font-size: 12px;
   }
 }
 .portfolio__flex-title {
@@ -716,7 +721,7 @@ body.lock {
 }
 @media (max-width: 2560px) {
   .portfolio__flex-title {
-    font-size: calc(2.2vw + 10px);
+    font-size: calc(1.7vw + 20px);
   }
 }
 .portfolio__main-flex {
