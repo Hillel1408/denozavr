@@ -704,7 +704,7 @@ body.lock {
 .portfolio__flex-title {
   line-height: 100%;
   color: white;
-  margin-bottom: 17px;
+  margin-bottom: 0;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
