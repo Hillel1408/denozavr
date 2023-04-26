@@ -594,7 +594,7 @@ body.lock {
   line-height: 100%;
   color: #bef905;
   font-family: "PF Din Text Cond Pro", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 @media (max-width: 480px) {
   .contacts__content-title {
@@ -633,7 +633,7 @@ body.lock {
 .contacts__list-link {
   font-family: "PF Din Text Cond Pro", sans-serif;
   color: #b9b9b9;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
   line-height: 100%;
   display: -webkit-box;
