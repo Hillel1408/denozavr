@@ -24,8 +24,8 @@
                 font-size: 45px;
                 line-height: 100%;
                 color: #bef905;
-                font-family: 'PFDinTextCondPro', sans-serif;
-                font-weight: 400;
+                font-family: 'PF Din Text Cond Pro', sans-serif;
+                font-weight: 300;
             }
             @media (max-width: (480px)) {
                 padding-right: 0;
@@ -54,9 +54,9 @@
         flex-direction: column;
         gap: 10px;
         &-link {
-            font-family: 'PFDinTextCondPro', sans-serif;
+            font-family: 'PF Din Text Cond Pro', sans-serif;
             color: #b9b9b9;
-            font-weight: 400;
+            font-weight: 300;
             font-size: 24px;
             line-height: 100%;
             display: flex;
