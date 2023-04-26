@@ -22,10 +22,10 @@
             align-items: center;
             p {
                 font-size: 45px;
+                line-height: 100%;
                 color: #bef905;
-                font-family: 'PF Din Text Cond Pro', sans-serif;
-                font-weight: 300;
-                letter-spacing: 1px;
+                font-family: 'PFDinTextCondPro', sans-serif;
+                font-weight: 400;
             }
             @media (max-width: (480px)) {
                 padding-right: 0;
@@ -54,11 +54,11 @@
         flex-direction: column;
         gap: 10px;
         &-link {
-            font-family: 'PF Din Text Cond Pro', sans-serif;
+            font-family: 'PFDinTextCondPro', sans-serif;
             color: #b9b9b9;
-            font-weight: 300;
-            letter-spacing: 1px;
+            font-weight: 400;
             font-size: 24px;
+            line-height: 100%;
             display: flex;
             align-items: center;
             gap: 10px;
