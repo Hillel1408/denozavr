@@ -46,7 +46,7 @@
 }
 .main-nav {
     background-color: #040404;
-    padding: 22px 52px;
+    padding: 22px 82px 22px 52px;
     @media (max-width: (1025px)) {
         display: flex;
         justify-content: space-between;
@@ -55,6 +55,7 @@
         padding: 22px 22px;
     }
     &__logo {
+        margin-bottom: 3px;
         @media (max-width: (1025px)) {
             display: none;
         }
@@ -132,7 +133,7 @@
     }
     &__list {
         display: flex;
-        gap: 27px;
+        gap: 25px;
         align-items: center;
         @media (max-width: (1160px)) {
             gap: 7px;
@@ -148,7 +149,7 @@
             letter-spacing: 1.5px;
             color: #c9c9c9;
             font-weight: 100;
-            font-family: 'PF Din Text Comp Pro', sans-serif;
+            font-family: 'PF Din Text Cond Pro', sans-serif;
             &.active {
                 border-width: 1px;
                 border-color: rgb(190, 249, 5);
