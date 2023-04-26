@@ -200,7 +200,7 @@ body.lock {
 
 .main-nav {
   background-color: #040404;
-  padding: 22px 52px;
+  padding: 22px 82px 22px 52px;
 }
 @media (max-width: 1025px) {
   .main-nav {
@@ -216,6 +216,9 @@ body.lock {
   .main-nav {
     padding: 22px 22px;
   }
+}
+.main-nav__logo {
+  margin-bottom: 3px;
 }
 @media (max-width: 1025px) {
   .main-nav__logo {
@@ -336,7 +339,7 @@ body.lock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 27px;
+  gap: 25px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -362,7 +365,7 @@ body.lock {
   letter-spacing: 1.5px;
   color: #c9c9c9;
   font-weight: 100;
-  font-family: "PF Din Text Comp Pro", sans-serif;
+  font-family: "PF Din Text Cond Pro", sans-serif;
 }
 .main-nav__list-link.active {
   border-width: 1px;
@@ -480,6 +483,7 @@ body.lock {
   padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 40px;
 }
 .about-us__content-img {
   width: 226px;
@@ -581,7 +585,7 @@ body.lock {
 .contacts__content-title p {
   font-size: 45px;
   color: #bef905;
-  font-family: "PF Din Text Comp Pro", sans-serif;
+  font-family: "PF Din Text Cond Pro", sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -620,7 +624,7 @@ body.lock {
   gap: 10px;
 }
 .contacts__list-link {
-  font-family: "PF Din Text Comp Pro", sans-serif;
+  font-family: "PF Din Text Cond Pro", sans-serif;
   color: #b9b9b9;
   font-weight: 300;
   letter-spacing: 1px;
