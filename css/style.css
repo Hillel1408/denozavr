@@ -705,6 +705,7 @@ body.lock {
   -o-transition: 0.5s;
   transition: 0.5s;
   line-height: 100%;
+  text-transform: none;
   color: white;
   font-family: "PFDinTextCompPro", sans-serif;
   font-size: 21px;
