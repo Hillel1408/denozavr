@@ -34,6 +34,13 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "RistrettoSlabPro";
+  font-display: swap;
+  src: url("../fonts/RistrettoSlabPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -686,16 +693,16 @@ body.lock {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   font-family: "RistrettoSlabPro", sans-serif;
   background: rgba(0, 0, 0, 0.45);
 }
 .portfolio__flex-text span {
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   line-height: 100%;
   color: white;
   font-family: "PFDinTextCompPro", sans-serif;
@@ -719,9 +726,10 @@ body.lock {
   line-height: 100%;
   color: white;
   margin-bottom: 0;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 300;
   font-size: 65px;
 }
 @media (max-width: 2560px) {
@@ -760,7 +768,7 @@ body.lock {
 }
 .portfolio__flex2 {
   width: 22.65625%;
-  border: 10px solid #050505;
+  border: 7px solid #050505;
 }
 @media (max-width: 520px) {
   .portfolio__flex2 {
@@ -794,7 +802,7 @@ body.lock {
 }
 .portfolio__flex3 {
   width: 68.6868686869%;
-  border: 10px solid #050505;
+  border: 7px solid #050505;
 }
 @media (max-width: 520px) {
   .portfolio__flex3 {
@@ -819,9 +827,6 @@ body.lock {
   position: relative;
   cursor: pointer;
 }
-.portfolio__flex3:hover .portfolio__flex-text, .portfolio__flex4:hover .portfolio__flex-text, .portfolio__flex2:hover .portfolio__flex-text {
-  background: rgba(0, 0, 0, 0.65);
-}
 .portfolio__flex3:hover .portfolio__flex-title, .portfolio__flex4:hover .portfolio__flex-title, .portfolio__flex2:hover .portfolio__flex-title {
   margin-bottom: 17px;
 }
@@ -831,7 +836,7 @@ body.lock {
 }
 .portfolio__flex4 {
   width: 31.3131313131%;
-  border: 10px solid #050505;
+  border: 7px solid #050505;
 }
 @media (max-width: 520px) {
   .portfolio__flex4 {
