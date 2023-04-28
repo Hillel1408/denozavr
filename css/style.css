@@ -770,7 +770,7 @@ body.lock {
 }
 .portfolio__flex2 {
   width: 22.65625%;
-  border: 7px solid #050505;
+  border: 8px solid #050505;
 }
 @media (max-width: 520px) {
   .portfolio__flex2 {
@@ -804,7 +804,7 @@ body.lock {
 }
 .portfolio__flex3 {
   width: 68.6868686869%;
-  border: 7px solid #050505;
+  border: 8px solid #050505;
 }
 @media (max-width: 520px) {
   .portfolio__flex3 {
@@ -829,6 +829,9 @@ body.lock {
   position: relative;
   cursor: pointer;
 }
+.portfolio__flex3:hover .portfolio__flex-text, .portfolio__flex4:hover .portfolio__flex-text, .portfolio__flex2:hover .portfolio__flex-text {
+  background: rgba(0, 0, 0, 0.55);
+}
 .portfolio__flex3:hover .portfolio__flex-title, .portfolio__flex4:hover .portfolio__flex-title, .portfolio__flex2:hover .portfolio__flex-title {
   margin-bottom: 17px;
 }
@@ -838,7 +841,7 @@ body.lock {
 }
 .portfolio__flex4 {
   width: 31.3131313131%;
-  border: 7px solid #050505;
+  border: 8px solid #050505;
 }
 @media (max-width: 520px) {
   .portfolio__flex4 {
