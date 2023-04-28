@@ -619,7 +619,7 @@ body.lock {
   right: 0;
 }
 .contacts__list {
-  padding: 28px;
+  padding: 28px 0 28px 28px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
