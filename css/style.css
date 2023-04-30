@@ -756,7 +756,7 @@ body.lock {
   }
 }
 .portfolio__flex1 {
-  width: 77.34375%;
+  width: 76.1328125%;
 }
 @media (max-width: 1025px) {
   .portfolio__flex1 {
@@ -769,7 +769,7 @@ body.lock {
   }
 }
 .portfolio__flex2 {
-  width: 22.65625%;
+  width: 23.8671875%;
   border: 8px solid #050505;
 }
 @media (max-width: 520px) {
