@@ -20,15 +20,17 @@
             left: 0;
             background: none;
             text-align: center;
+            text-transform: uppercase;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            transition: 0.4s;
+            transition: 0.5s;
             font-family: 'RistrettoSlabPro', sans-serif;
             background: rgba(0, 0, 0, 0.45);
             span {
-                transition: 0.4s;
+                transition: 0.5s;
                 line-height: 100%;
+                text-transform: none;
                 color: white;
                 font-family: 'PFDinTextCompPro', sans-serif;
                 @media (min-width: (768px)) {
@@ -42,7 +44,8 @@
             line-height: 100%;
             color: white;
             margin-bottom: 0;
-            transition: 0.4s;
+            transition: 0.5s;
+            font-weight: 300;
             @include adaptiv-font(65, 22);
         }
     }
@@ -53,7 +56,7 @@
         }
     }
     &__flex1 {
-        width: 1980 / 2560 * 100%;
+        width: 1949 / 2560 * 100%;
         @media (max-width: (1025px)) {
             width: 66.6666%;
         }
@@ -62,8 +65,8 @@
         }
     }
     &__flex2 {
-        width: 580 / 2560 * 100%;
-        border: 10px solid #050505;
+        width: 611 / 2560 * 100%;
+        border: 8px solid #050505;
         @media (max-width: (520px)) {
             border-top: none;
             border-bottom: none;
@@ -87,7 +90,7 @@
     }
     &__flex3 {
         width: 1360 / 1980 * 100%;
-        border: 10px solid #050505;
+        border: 8px solid #050505;
         @media (max-width: (520px)) {
             border-top: none;
             border-bottom: none;
@@ -111,7 +114,7 @@
         cursor: pointer;
         &:hover {
             .portfolio__flex-text {
-                background: rgba(0, 0, 0, 0.65);
+                background: rgba(0, 0, 0, 0.55);
             }
             .portfolio__flex-title {
                 margin-bottom: 17px;
@@ -124,7 +127,7 @@
     }
     &__flex4 {
         width: 620 / 1980 * 100%;
-        border: 10px solid #050505;
+        border: 8px solid #050505;
         @media (max-width: (520px)) {
             border-top: none;
             border-bottom: none;
